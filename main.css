@@ -1,3 +1,46 @@
-div {
-	padding: 20px;
+html {
+	/* palette */
+	--background: #759aab;
+	--highlight: #faf2a1;
+	--color1: #401f3e;
+	--color2: #3f2e56;
+	--color3: #453f78;
+}
+
+body {
+	background: var(--background);
+	color: var(--color1);
+	font-family: 'Nunito', sans-serif;
+	text-align: center;
+}
+
+header {
+	font-family: 'Pacifico', cursive;
+	font-size: 40px;
+}
+
+input {
+	margin-left: 10px;
+}
+
+h2 {
+	color: var(--color2);
+}
+
+section {
+	margin: 40px;
+}
+
+article {
+	background: var(--color3); 
+	color: var(--highlight);
+	margin: 5px auto;
+	padding: 5px;
+	text-align: left;
+	width: 40%;
+	min-width: 100px;
+}
+
+img {
+	float: right;
 }
